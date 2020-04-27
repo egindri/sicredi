@@ -2,13 +2,17 @@
 
 O projeto foi desenvolvido utilizando-se Java 8, SpringBoot2, H2 e Maven.
 O servidor se encontra na porta 80.
+
 Para executá-lo:
 
 	mvn spring-boot:run
 
 Fontes JPA são gerados automaticamente pelo plugin maven do hyperjaxb3 a partir do XSD do BCB.
+
 Hibernate se encarrega da criação das tabelas.
+
 Carga inicial é feita via SpringBatch.
+
 Testes de integração realizados com SpringBootTest e SpringBatchTest.
 
 Documentação REST:
